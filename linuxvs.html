@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Linux Versus</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="moncss.css" /> 
+		<link rel="stylesheet" media="all and (max-width: 440px)" href="moncss.css" /> 
+		<link rel="stylesheet" media="all and (max-width: 800px)" href="moncss.css" /> 
+		<link rel="icon" href="images/favicon.png" />
+	</head>
+	<body>
+		<!--div global-->
+		<div class="global">
+			<a href="cliches.html#top"> 
+					<img src="images/Fleche.png" alt="Remonter au menu" title="Remonter au menu" class="haut"/> 
+			</a>
+			<header>
+				<!--Bannière en en-tête-->
+				<img src="images/Banniere.jpg" alt="Banniere du site Linux Review" class="banniere">
+			</header> 
+			<!-- Menu Déroulant -->
+			<nav class="menu">
+                <ul>
+                    <li class="navmenu"><a href="index.html">Accueil</a></li>
+                    <li class="navmenu"><a href="distrib.html">Principales Distributions</a>
+                        <ul class="submenu">
+                            <li><a href="distrib.html#ubuntu">Ubuntu</a></li>
+                            <li><a href="distrib.html#debian">Debian</a></li>
+                            <li><a href="distrib.html#redhat">Red Hat Linux</a></li>
+                            <li><a href="distrib.html#fedora">Fedora</a></li>
+                            <li><a href="distrib.html#arch">Arch</a></li>
+                            <li><a href="distrib.html#gentoo">Gentoo</a></li>
+                            <li><a href="distrib.html#Android">Android</a></li>
+                        </ul>
+                    </li>
+                    <li class="navmenu"><a href="linuxvs.html">Linux versus</a></li>
+                    <li class="navmenu"><a href="cliches.html">Les clichés</a></li>
+                    <li class="navmenu"><a href="sources.html">Sources</a></li>
+                    <li class="navmenu"><a href="credits.html">Crédits</a></li>
+                </ul>
+            </nav>
+			<!-- Section contenant les informations du site  -->
+			<section>	
+					<!-- Texte explicatif à gauche de la section -->
+					<div class="linux">					
+						<h2>Comparaisons entre les principaux distributeurs</h2><br />
+						<p>
+							Depuis les débuts de ses trois grandes distributions, beaucoup de questions restent dans la tête de beaucoup de personne mais 
+							toutes ont une base unique : Quel est le meilleur et pourquoi ?
+						</p>
+						<p>
+							Bien entendu, savoir quel est le meilleur entre plusieurs distributions est un raisonnement stupide, et c’est pour cela que nous 
+							allons comparer les trois pour voir en quoi les trois ne sont pas à mettre en compétition mais au contraire à mettre en symbiose 
+							pour satisfaire des besoins mixtes.
+						</p>
+						<p>
+							Nous savons que ses trois ont des points forts et des points faibles à travers ce tableau structuré
+							qui en font ce qu’ils sont aujourd’hui : des systèmes d’exploitations spécialisés dans un panel de domaine bien précis.
+						</p>
+						<!--tableau-->
+						<table>
+							<thead>
+								<!-- Différents systèmes comparés -->
+								<tr>
+									<td class="categorie"></td>
+									<td>Windows</td>
+									<td>Linux</td>
+									<td>MacOs</td>
+								</tr>
+							</thead>
+							<tr>
+								<!-- Catégorie de comparaison -->
+								<td class="categorie">Open/closed source</td>
+								<td>Closed-source</td>
+								<td>Open-source</td>
+								<td>Closed-source</td>
+							</tr>
+							<tr>
+								<!-- Catégorie de comparaison -->
+								<td class="categorie">Public visé</td>
+								<td>
+									Il vise tout type de public, surtout des particuliers novices ou des entreprises.
+									Cependant, des professionnels dans le domaine de l’informatique, par le manque de flexibilité du système d’exploitation.
+								</td>
+								<td>
+									Il vise tout type de public, passant de l’expert en programmation, en administration et en général, dans un ou plusieurs 
+									domaines liés à l’informatique jusqu’au novice n’ayant aucune compétence en la matière. De plus, les professionnels de 
+									l’informatique ont une plus grande liberté et plus de possibilité sur ses os, par sa nature open-source, permettant une
+									modification sans limite.
+								</td>
+								<td>
+									Il vise le grand public, visant tous les âges et toutes les catégories socio-professionnelles, 
+									sa communication cible en particulier les jeunes, de 16 à 30 ans. Cependant, des professionnels 
+									dans le domaine de l’informatique, par le manque de flexibilité du système d’exploitation.
+								</td>
+							</tr>
+							<tr>
+								<!-- Catégorie de comparaison -->
+								<td class="categorie">Domaine visé </td>
+								<td>
+									Tout domaine mais une plus grande orientation jeux vidéo, particuliers, professionnel.
+									Il y a aussi une partie assez méconnue qui est le domaine du serveur, où Windows donne un système d’exploitation pour ses 
+									derniers.
+								</td>
+								<td>
+									Tout domaine au vu de son large panel de système d’exploitation, pouvant aller de la gestion de serveur à l’usage lambda pour 
+									un particulier sans aucune connaissance
+									Il y en a pour les serveurs, jeux vidéos, la sécurité informatique et bien d’autres.
+								</td>
+								<td>
+									Tout domaine mais une plus grande orientation traitement musique/images/vidéo, professionnel.
+
+								</td>
+							</tr>
+							<tr>
+								<!-- Catégorie de comparaison -->
+								<td class="categorie">Principaux points forts </td>
+								<td>
+									<ul>
+										<li>
+											<span class="souligne">	
+												Interface : 
+											</span>
+											Interface la plus propre possible, assez claire et sans bavure, pouvant même être modifié relativement 
+											facilement au niveau esthétique.
+										</li>
+										<li>
+											<span class="souligne">
+												Pilotes :
+											</span>
+												Ils sont souvent préinstallés et peuvent être mis à jour automatiquement
+										</li>
+										<li>
+											<span class="souligne">
+												Adaptabilité :
+											</span>
+												Peut se mettre sur tout pc si il y a une place de plus de 20go(sans compter les mises à jour).
+										</li>
+										<li>
+											<span class="souligne">
+												Mise à jour : 
+											</span>
+											Elles sont automatiques, ne laissant pas dans le besoin les novices.
+										</li>
+										<li>
+											<span class="souligne">
+												Pilotes :
+											</span>
+											Ils sont souvent préinstallés et peuvent être mis à jour automatiquement
+										</li>
+										<li>
+											<span class="souligne">										
+												Prix/installation : 
+											</span>
+											Le système d’exploitation est en lui-même cher mais installé de base sur toutes les machines, 
+											donc pour tous les prix. Il existe aussi des systèmes gratuits pour les étudiants, qui est quasiment meilleur que 
+											celle profesionnelle.
+										</li>
+										<li>
+											<span class="souligne">
+												Utilisation:
+											</span>
+											 Son utilisation peut-être très large, n’ayant que peu de problème de compatibilité matériel et logiciel.
+										</li>
+										<li>
+											<span class="souligne">
+												En cas de problème : 
+											</span>
+											Il y a beaucoup de personnes compétentes et de magasins spécialisés dans les systèmes d’exploitations qu’offre Windows
+											
+										</li>
+									</ul>
+
+								</td>
+								<td>
+									<ul>
+										<li>
+											<span class="souligne">
+												Interface :
+											</span>
+											Il y a une possibilité infinie d’interface , pour tous les goûts et couleurs , ce qui laisse un choix gigantesque
+										</li>
+										<li>
+											<span class="souligne">
+												Ergonomie :
+											</span>
+											Souvent légère, elle se lancera vite si l’installation est faite proprement.
+										</li>
+										<li>
+											<span class="souligne">
+												Adaptabilité :
+											</span>
+											Tout système trouvera ce qui lui correspond, pouvant être d’une taille ridicule au besoin, 
+											fonctionnant sur des micro-ordinateur comme les rasberry pi.
+										</li>
+										<li>
+											<span class="souligne">
+												Mise à jour : 
+											</span>	
+											Totalement contrôlable le plus souvent.
+										</li>
+										<li>
+											<span class="souligne">
+												Pilotes :
+											</span>
+											Ils sont souvent préinstallés et peuvent être mis à jour manuellement et proprement.
+										</li>
+										<li>
+											<span class="souligne">
+												Choix :
+											</span>
+											Il y a beaucoup de choix dans les distributions, car il s’agit du principe même de l’open source.
+										</li>
+									</ul>
+								</td>
+								<td>
+									<ul>
+										<li>
+											<span class="souligne">
+												Interface : 
+											</span>
+											Interface propre et stylisée, optimisée pour en faire la plus esthétique possible et « professionnel ». 
+										</li>
+										<li>
+											<span class="souligne">
+												Ergonomie : 
+											</span>
+											Mac laisse en arrière plan seulement les instances principales, laissant les autres à l’arrêt si elles ne sont pas 
+											vitales ou demander, rendant le tout plus rapide. 
+										</li>
+										<li>
+											<span class="souligne">
+												Adaptabilité : 
+											</span>
+											Le système d’exploitation s’adaptera parfaitement aux machines MAC. Ce système est de petite taille, 7 go.
+										</li>
+										<li>
+											<span class="souligne">
+												Mise à jour : 
+											</span>
+											Les mises à jour se font automatiquement, ne laissant pas dans l’obsolescence les personnes débutantes. Elles peuvent 
+											de plus être arrêté et sont en plus très rares.
+											
+										</li>
+										<li>
+											<span class="souligne">
+												Pilotes : 
+											</span>
+											Ils sont souvent préinstallés et peuvent être mis à jour automatiquement
+										</li>
+										<li>
+											<span class="souligne">
+												Utilisation: 
+											</span>
+											Son utilisation peut-être très large, n’ayant que peu de problème de compatibilité matériel et logiciel.
+										</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<!-- Catégorie de comparaison -->
+								<td class="categorie">Principaux points faibles </td>
+								<td>
+									<ul>
+										<li>
+											<span class="souligne">
+												Ergonomie : 
+											</span>	
+											Windows a tendance à tout laisser tourner en fond, même les instances dont nous ne nous servons, 
+											ce qui gâche une partie des capacités du PC.
+										</li>
+										<li>
+											<span class="souligne">
+												Adaptabilité : 
+											</span>
+											Ce système d’exploitation s’adaptant à tout type d’ordi, si votre disque dur dépasse les 20gb pour la version 64 bits 
+											et 16 pour la version 32 bit (sans compter les mises à jour), cela engendre une sous-utilisation des capacités 
+											matérielles du PC.
+										</li>
+										<li>
+											<span class="souligne">
+												Mise à jour : 
+											</span>
+											Les mises à jour sont automatiques et peuvent même arrêter l’ordinateur en cours de marche, 
+											sans même savoir quand il sera de nouveau disponible, car la seule preuve d’avancement est un pourcentage 
+											grossissant sans mesure de temps. Les mises à jour sur les versions familiales sont même parfois des mises à jour 
+											test pouvant entraîner de graves problèmes dans de rares cas, mais souvent réparables si l’on cherche sur internet.
+										</li>
+										<li>
+											<span class="souligne">
+												Pilotes: 
+											</span>	
+											Les pilotes sont certes installés de défaut mais les mises à jour entraînent souvent des erreurs pouvant mener au non 
+											fonctionnement de certains composants comme les cartes sons ou le pavé tactile.
+										</li>
+										<li>
+											<span class="souligne">
+												Installation : 
+											</span>
+											Les installations déjà faites ont un gros problème, elles sont souvent faites de manière grossière et entraîne 
+											une perte de capacité sur l’ordinateur.
+										</li>
+										<li>
+											<span class="souligne">
+												Choix : 
+											</span>
+											Selon vos besoins et votre porte-monnaie, vous pouvez choisir entre trois versions : l’étudiante, la familiale et 
+											la professionnelle.
+										</li>
+								</td>
+								<td>
+									<ul>
+										<li>
+											<span class="souligne">
+												Installation : 
+											</span>
+											Il existe peu de machines avec une installation déjà fait, pouvant donc rebuter certaines personnes débutantes, 
+											l’installation n’étant pas si simple que ça.
+										</li>
+										<li>
+											<span class="souligne">
+												Pilotes /utilisation: 
+											</span>
+											Il arrive parfois que des pilotes ou logiciels ne puissent être compatibles, 
+											Linux n’ayant pas autant de compatibilités logiciel que ses deux autres concurrents, même si 
+											ce dernier commence à attirer plus de public.
+										</li>
+										<li>
+											<span class="souligne">	
+												Choix : 
+											</span>
+											Vu le choix énorme, il y a de quoi être perdu si l’on ne sait pas vraiment quoi choisir ou si l’on ne s’y connaît pas.
+										</li>
+									</ul>
+								</td>
+								<td>
+									<ul>
+										<li>
+											<span class="souligne">
+												Adaptabilité : 
+											</span>
+											Sa qualité est aussi un énorme défaut car installer un système d’exploitation macOs est impossible sans machine 
+											virtuelle.
+											<a href="https://www.justgeek.fr/installer-macos-high-sierra-vmware-55694/" target="_blank">Tutoriel</a>
+										</li>
+										<li>
+											<span class="souligne">
+												Pilotes: 
+											</span>
+											Les pilotes sont certes installés de défaut mais les mises à jour entraînent souvent des erreurs pouvant 
+											mener au non fonctionnement de certains composants comme les cartes sons ou le pavé tactile.
+										</li>
+										<li>
+											<span class="souligne">
+												Prix : 
+											</span>	
+											Le système d’exploitation est en lui-même peu cher mais vu qu’il doit être lié à ses machines, 
+											cela peut devenir très cher.
+										<li>
+											<span class="souligne">
+												Utilisation : 
+											</span>
+											Il existe quelques petits soucis quand l’on veut jouer à différents jeux vidéos, ses machines et systèmes d’exploitation
+											n’étant pas encore fait pour ça.
+										</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<!-- Catégorie de comparaison -->
+								<td class="categorie">Support Technique</td>
+								<td>
+									Gratuite en ligne. Possibilité d’obtenir un service par téléphone en fournissant son numéro de téléphone. 
+									Tutoriel pour la résolution des problèmes communs.
+								</td>
+								<td>
+									Tout dépend du système utilisé mais une communauté large et importante, même en français, pouvant aider sur un tas de domaine et toujours là.
+								</td>
+								<td>
+									Gratuite en ligne. Possibilité d’obtenir un service par téléphone en fournissant son numéro de téléphone. 
+									Tutoriel pour la résolution des problèmes communs.
+								</td>
+							</tr>
+							<tr>
+								<!-- Catégorie de comparaison -->
+								<td class="categorie">Difficulté d’utilisation(/5)</td>
+								<td>
+									<img src="images/une.jpg" alt="une etoile" title="une etoile" class="etoile">
+								</td>
+								<td>
+									(voir <a href="distrib.html">Principales distributions</a>)
+								</td>
+								<td>
+									<img src="images/deux.jpg" alt="deux etoiles" title="deux etoiles" class="etoile2">
+								</td>
+							</tr>
+							<tr>
+								<!-- Catégorie de comparaison -->
+								<td class="categorie">Prix</td>
+								<td>
+									<ul>
+										<li>	
+											<a href="https://www.microsoft.com/fr-fr/p/windows-10-famille/d76qx4bznwk4/1NT3"target="_blank">
+												Windows 10 Familial :
+											</a>
+											145,00 € TVA incluse
+										</li>
+										<li>
+											<a href="https://www.microsoft.com/fr-fr/p/windows-10-professionnel/df77x4d43rkt/48DN?icid=PDP-Windows10Home-buybox-upsell_Windows10Pro-en_CA" target="_blank">
+												Windows 10 Professionnel : 
+											</a>
+											259 € TVA incluse
+										</li>
+										<li>
+											<a href="http://www.onthehub.com/microsoft-windows-10-education-for-students/?utm_source=ms-student-page&utm_medium=microsoft-site&utm_campaign=windows10" target="_blank">
+												windows 10 étudiant : 
+											</a>
+											Gratuit
+										</li>
+										<li>
+											<a href="https://www.microsoft.com/en-in/cloud-platform/windows-server-pricingin/cloud-platform/windows-server-pricing" target="_blank">
+												Windows server 2019 edition Datacenter:  
+											</a>
+											5432,06 €
+										</li>
+										<li>
+											<a href="https://www.microsoft.com/en-in/cloud-platform/windows-server-pricingin/cloud-platform/windows-server-pricing" target="_blank">
+												Windows server 2019 edition standard :
+											</a>
+											857,83€
+										</li>
+										<li>
+											<a href="https://www.microsoft.com/en-in/cloud-platform/windows-server-pricingin/cloud-platform/windows-server-pricing" target="_blank">
+												Windows server 2019 edition Essentials :
+											</a>
+											442,16€
+										</li>
+									</ul>
+								</td>
+								<td>
+								(voir <a href="distrib.html">Principales distributions</a>)
+								</td>
+								<td>
+									<ul>
+										<li>
+											<a href="https://www.apple.com/fr/shop/product/MC573F/A/mac-os-x-106-snow-leopard" target="_blank">
+												Mac OS X 10.6 Snow Leopard : 
+											</a>
+											21,99 €
+										</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<h2>Pour aller plus loin:</h2><br />
+						<h3>Comment faire pour mettre MacOs sur un ordi (non Mac)</h3><br />
+						<p>
+							<iframe class="video3" src="https://www.youtube.com/embed/Ufc7apck2xE" frameborder="0" allowfullscreen></iframe>
+						</p>
+						<p>
+							<iframe class="video3" src="https://www.youtube.com/embed/NUIcyYF-lQI" frameborder="0"  allowfullscreen></iframe>
+						</p>
+						<div class="vide"></div>
+						<h3>En apprendre plus sur Windows</h3><br />
+						<p><a href="https://www.techno-science.net/definition/7613.html">Page externe</a></p><br />
+						<h3>En apprendre plus sur MacOs</h3><br />
+						<p>Voir le fil de recommandation pour les cours</p>
+						<p><iframe class="video3" src="https://www.youtube.com/embed/edM7_mSDcHo" frameborder="0" allowfullscreen></iframe></p><br />
+					</div>
+				<div class="vide"></div>
+			</section>
+			<!-- Pied de page avec date de création et lien source -->
+			<footer>	
+				<!-- </div> -->
+				<a href="http://iut.ups-tlse.fr/" target="_blank"> 
+					<img src="images/logo_iut_info.png" alt="Logo de l'iut info de Toulouse" title="Logo de l'iut info de Toulouse" class="logo"/> 
+				</a>
+				<a href="http://www.univ-tlse3.fr/" target="_blank"><img src="images/logoUT3.jpg" alt="Logo université Toulouse 3" title="Logo université Toulouse 3" class="logoUT3"/> </a>
+				<div class="vide">
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
